@@ -9,6 +9,6 @@ print("server ready!!")
 
 while True:
 	clts,add =s.accept()				#Accepts connections from outside
-	print(f"Connection to {add}established")  
+	print(f"Connection to {add} established")  
 	clts.send(bytes("Socket Programming in Python","utf-8 "))
 
