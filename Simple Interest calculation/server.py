@@ -3,7 +3,7 @@ serverPort=12000
 serverSocket=socket(AF_INET,SOCK_STREAM)
 serverSocket.bind(('',serverPort))
 serverSocket.listen(1)
-print("The server is ready to listen")
+print("The server is ready!!")
 while True:
     connectionSocket,addr=serverSocket.accept()
     p=connectionSocket.recv(1024).decode()
